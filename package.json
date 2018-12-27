@@ -1,32 +1,32 @@
 {
-  "name": "yarn-recursive",
-  "version": "1.0.7",
-  "description": "Recursively run `yarn` in the current folder",
-  "main": "yarn-recursive.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nrigaudiere/yarn-recursive.git"
-  },
-  "bin": {
-    "yarn-recursive": "yarn-recursive.js"
-  },
-  "keywords": [
-    "yarn",
-    "recursive",
-    "install"
-  ],
-  "author": "Nicolas Rigaudière",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nrigaudiere/yarn-recursive/issues"
-  },
-  "homepage": "https://github.com/nrigaudiere/yarn-recursive#readme",
-  "dependencies": {
-    "cli-color": "^1.2.0",
-    "shelljs": "^0.7.8",
-    "yargs": "^9.0.1"
-  }
+    "name": "yarn-recursive-extra",
+    "version": "1.0.7",
+    "description": "Recursively run `yarn` in the current folder. Modified by me to allow for extra commands to be added",
+    "main": "yarn-recursive.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacobgc/yarn-recursive.git"
+    },
+    "bin": {
+        "yarn-recursive": "yarn-recursive.js"
+    },
+    "keywords": [
+        "yarn",
+        "recursive",
+        "install"
+    ],
+    "author": "Jacob Gee-Clarke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jacobgc/yarn-recursive/issues"
+    },
+    "homepage": "https://github.com/jacobgc/yarn-recursive#readme",
+    "dependencies": {
+        "cli-color": "^1.2.0",
+        "shelljs": "^0.7.8",
+        "yargs": "^9.0.1"
+    }
 }
