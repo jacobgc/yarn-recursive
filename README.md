@@ -22,3 +22,10 @@ End of yarns
 ```
 $ yarn-recursive --cmd upgrade --opt <package-name>
 ```
+
+### Extra commands added
+#### cleanup
+Removes the node_modules folder
+```
+$ yarn-recursive --cmd cleanup
+```
