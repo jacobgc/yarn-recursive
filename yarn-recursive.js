@@ -25,7 +25,7 @@ function yarn(directoryName) {
     let result;
     if (argv.cmd === "cleanup") {
         shell.cd(directoryName);
-        result = shell.rm('-r', 'node_modules');
+        result = shell.rm('-rf', 'node_modules');
     } else {
         shell.cd(directoryName);
         result = shell.exec(command);
